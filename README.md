@@ -71,6 +71,7 @@ Alternatively, if you prefer to download the project as a zip file:
 
 Now you have the project files available locally, and you can start working on them as needed.
 
+## Running the Application in local
 
 Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
