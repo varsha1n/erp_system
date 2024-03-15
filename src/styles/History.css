@@ -1,0 +1,59 @@
+.container {
+  display: block;
+}
+
+.table-container1 {
+    
+    justify-content: center; /* Center the table horizontally */
+    margin:  auto; /* Center the table container1 vertically */
+    max-width: 1400px; /* Set a maximum width for the table container1 */
+   
+  margin-bottom: 40px; 
+    margin-top: 30px; /* Add padding to create a gap between the screen walls */
+    overflow-x:auto;
+  }
+  
+  .table-container1  table {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+  }
+  
+  .table-container1 th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left; 
+    height: 70px;
+    font-size:large;
+  }
+  
+  .table-container1 th {
+    background-color:#f6f8ea;
+  }
+  
+  .table-container1 tr:hover {
+    background-color: #f5f5f5;
+  }
+ 
+  .bn {
+    text-decoration: none;
+    max-width: auto;
+    background-color: rgb(34, 139, 34);
+    color: #fff !important;
+    padding: 1rem 1.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+    margin: auto;
+   
+    
+}
+
+.bn:hover,
+.bn:active {
+    transform: scale(0.96);
+}

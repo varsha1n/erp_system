@@ -1,0 +1,106 @@
+/* Your existing CSS */
+.section {
+  width: 40px 0px;
+  margin:30px 30px;
+}
+
+
+.card {
+    background-color: #f6f8ea;
+    border-radius: 1rem;
+    padding-bottom: 15px;
+    
+  }
+  
+  .card figure {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    padding-bottom: 15px;
+  }
+  
+  .card figure::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: all 0.2s linear;
+    cursor: pointer;
+  }
+  
+  .card figure:hover::after {
+    width: 100%;
+  }
+  
+  .card figure:hover img {
+    transform: scale(1.2);
+  }
+  
+  .card figure img {
+    max-width: 90%;
+    margin-top: 1.5rem;
+    height: 20rem;
+    transition: all 0.2s linear;
+  }
+  
+  .card .card-data {
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card .card-data-left {
+    flex-grow: 1;
+  }
+  
+  .card .card-data-right {
+    flex-shrink: 0;
+    text-align: right;
+  }
+  
+  .card h3 {
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    color: rgba(0, 0, 0, 0.6); /* Lighter color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .card .btn {
+    text-decoration: none;
+    max-width: auto;
+    background-color: rgb(34, 139, 34);
+    color: rgb(255, 255, 255);
+    padding: 1rem 1.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .card .btn:hover,
+  .card .btn:active {
+ 
+    transform: scale(0.96);
+  }
+  
+  .card .btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+  }
+  

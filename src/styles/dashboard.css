@@ -1,0 +1,70 @@
+.box {
+    background-color: #f6f8ea;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    
+    font-size: 1.2rem; /* Base font size for desktop */
+}
+
+.box-data {
+    color: black;
+    text-transform: capitalize;
+    margin-top: 2rem;
+}
+
+.box_parent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 20px; /* Gap between grid items */
+}
+.box figure {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+.box-button {
+    text-decoration: none;
+    max-width: auto;
+    background-color: rgb(34, 139, 34);
+    color: rgb(255, 255, 255);
+    padding: 1rem 1.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: fit-content;
+    margin: auto;
+    margin-top: 0.5rem;
+}
+
+.box-button:hover,
+.box-button:active {
+    transform: scale(0.96);
+}
+
+.box-button a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1rem; /* Font size for mobile */
+}
+.total{
+    padding:1rem;
+color: rgba(0, 0, 0, 0.6);
+}
+/* Additional styles for mobile */
+@media (max-width: 768px) {
+    .box {
+        font-size: 1rem; 
+        padding: 10px; 
+        margin: 10px;
+    }
+    
+}
