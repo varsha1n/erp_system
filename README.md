@@ -4,7 +4,7 @@
 
 ## Application design
 
-This Project is a simple ERP System with React which demonstrates the following:
+This Project is a simple E-commerce website using React which demonstrates the following:
 
 1. **Dashboard**: Provides links for quick navigation to Product , Cart , Order Management pages and also gives an overview of the number of products in the System
    
