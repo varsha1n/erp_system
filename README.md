@@ -15,7 +15,7 @@ The project Template can be used to build bigger projects
 
 ## Live Application URL
 
-### [https://aditya-sridhar.github.io/simple-reactjs-app](https://65f45f7faca90e075f74804c--iridescent-kitten-fa858d.netlify.app/)
+### [https://65f45f7faca90e075f74804c--iridescent-kitten-fa858d.netlify.app/]
 This URL has the application deployed in
 
 ## Prerequisites
