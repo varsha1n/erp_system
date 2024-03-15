@@ -83,19 +83,19 @@ This Project is a simple E-commerce website using React which demonstrates the f
 ![React App - Personal - Microsoft​ Edge 15-03-2024 21_23_46](https://github.com/varsha1n/erp_system/assets/102849159/1ed9c99a-0f54-4a7c-895e-97d27d92bfb2)
 
    
-4. **Cart Page**: Users can update the quantity of products added to their cart and delete items as needed.<br>
+3. **Cart Page**: Users can update the quantity of products added to their cart and delete items as needed.<br>
    ![React App - Personal - Microsoft​ Edge 15-03-2024 21_21_38](https://github.com/varsha1n/erp_system/assets/102849159/678de53f-79cc-4c41-88c5-989bfb2afbb6)
 
    
-6. **History Page**: Features a list of orders containing details such as order ID, customer name, order date, status, and delivery date, using mock data. Also, users can modify the delivery status of orders and delete orders as needed.<br>
+4. **History Page**: Features a list of orders containing details such as order ID, customer name, order date, status, and delivery date, using mock data. Also, users can modify the delivery status of orders and delete orders as needed.<br>
    ![React App - Personal - Microsoft​ Edge 15-03-2024 21_21_48](https://github.com/varsha1n/erp_system/assets/102849159/1ef5b684-7bf8-45b8-a0f2-71fee3d64284)
 
    
-8. **Calendar View**: Additionally, history page includes a calendar view highlighting expected delivery dates. Clicking on a specific date in the calendar reveals all the products scheduled for delivery on that particular day.<br>
+5. **Calendar View**: Additionally, history page includes a calendar view highlighting expected delivery dates. Clicking on a specific date in the calendar reveals all the products scheduled for delivery on that particular day.<br>
    
 ![React App - Personal - Microsoft​ Edge 15-03-2024 21_21_59](https://github.com/varsha1n/erp_system/assets/102849159/40b536bf-0738-4983-a1c5-ef12c0dc55c2)
 
-10. **Responsive Design**: This project features a responsive design suitable for both desktop and mobile devices. When on mobile, users can navigate through pages by clicking on the Menu button.<br>
+6. **Responsive Design**: This project features a responsive design suitable for both desktop and mobile devices. When on mobile, users can navigate through pages by clicking on the Menu button.<br>
 
 
 ![React App - Personal - Microsoft​ Edge 15-03-2024 21_24_09](https://github.com/varsha1n/erp_system/assets/102849159/11275502-b676-47b8-a327-7be32d69ebfc)  <br>
