@@ -16,7 +16,7 @@ This Project is a simple E-commerce website using React which demonstrates the f
    
 5. **Calendar View**: Additionally, history page includes a calendar view highlighting expected delivery dates. Clicking on a specific date in the calendar reveals all the products scheduled for delivery on that particular day.
 
-6. **Responsive Design**:This project features a responsive design suitable for both desktop and mobile devices. Clicking the Menu button when on mobile can help users to navigate through pages.
+6. **Responsive Design**:This project features a responsive design suitable for both desktop and mobile devices. When on mobile users can navigate through pages by clicking on the Menu button.
 
 
 ## Live Application URL
