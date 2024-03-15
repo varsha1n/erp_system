@@ -8,11 +8,11 @@ This Project is a simple ERP System with React which demonstrates the following:
 
 1. **Dashboard**: Provides links for quick navigation to Product , Cart , Order Management pages and also gives an overview of the number of products in the System
    
-2. **Product Page**: features a list of products with details such as name, category, price, and stock quantity, using mock data. Provides ADD TO CART button which adds products to the cart page where the user can further edit products
+2. **Product Page**: Features a list of products with details such as name, category, price, and stock quantity, using mock data. Provides ADD TO CART button which adds products to the cart page where the user can further edit products
    
-3. **Cart Page**: users can update the quantity of products added to their cart and delete items as needed.
+3. **Cart Page**: Users can update the quantity of products added to their cart and delete items as needed.
    
-4. **History Page**: features a list of orders containing details such as order ID, customer name, order date, status, and delivery date, using with mock data. Also users can modify the delivery status of orders and delete orders as needed.
+4. **History Page**: Features a list of orders containing details such as order ID, customer name, order date, status, and delivery date, using with mock data. Also users can modify the delivery status of orders and delete orders as needed.
    
 5. **Calendar View**: Additionally, history page includes a calendar view highlighting expected delivery dates. Clicking on a specific date in the calendar reveals all the products scheduled for delivery on that particular day.
 
