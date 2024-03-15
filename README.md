@@ -37,17 +37,8 @@ To clone the project into your local environment, follow these steps:
 
 Now you have successfully cloned the project into your local environment. You can proceed with further setup or development tasks as needed.
 
-Alternatively, if you prefer to download the project as a zip file:
+Alternatively,  you can download the project as a zip file from the project's repository on GitHub
 
-1. Go to the project's repository on GitHub.
-
-2. Click on the "Code" button located near the top-right corner of the repository page.
-
-3. In the dropdown menu, select "Download ZIP".
-
-4. Once the zip file is downloaded, extract its contents to the desired location on your local machine.
-
-Now you have the project files available locally, and you can start working on them as needed.
 
 ## Running the Application in local
 
@@ -62,12 +53,14 @@ In order to run the application Type the following command
 ```bash
 npm start
 ```
+The Application Runs on **localhost:3000**
+
 ## Live Application URL
 
 ### [https://65f45f7faca90e075f74804c--iridescent-kitten-fa858d.netlify.app/]
 This URL has the application deployed in
 
-The Application Runs on **localhost:3000**
+
 
 ## Application design
 
