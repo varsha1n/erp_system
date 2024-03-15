@@ -1,17 +1,23 @@
 # erp_system
 
-# Simple React JS Project
+# Simple ERP System using React JS 
 
-## What is the use of this Repo
+## Application design
 
-This Project is a Simple ReactJS Project which demonstrates the following
-1. Creating a Component in React
-2. Making HTTP calls
-3. Communicating between parent and child component
-4. Using Bootstrap along with React
-5. Using Basic Routing in React
+This Project is a simple ERP System with React which demonstrates the following:
 
-The project Template can be used to build bigger projects
+1. **Dashboard**: Provides links for quick navigation to Product , Cart , Order Management pages and also gives an overview of the number of products in the System
+   
+2. **Product Page**: features a list of products with details such as name, category, price, and stock quantity, using mock data. Provides ADD TO CART button which adds products to the cart page where the user can further edit products
+   
+3. **Cart Page**: users can update the quantity of products added to their cart and delete items as needed.
+   
+4. **History Page**: features a list of orders containing details such as order ID, customer name, order date, status, and delivery date, using with mock data. Also users can modify the delivery status of orders and delete orders as needed.
+   
+5. **Calendar View**: Additionally, history page includes a calendar view highlighting expected delivery dates. Clicking on a specific date in the calendar reveals all the products scheduled for delivery on that particular day.
+
+6. **Responsive Design**:This project features a responsive design suitable for both desktop and mobile devices. Clicking the Menu button when in mobile can help users to navigate through pages .
+
 
 ## Live Application URL
 
@@ -48,27 +54,4 @@ npm start
 
 The Application Runs on **localhost:3000**
 
-## Application design
 
-#### Components
-
-1. **Customers** Component : This Component displays a list of customers. This Component gets the data from a json file in assets folder
-
-2. **CustomerDetails** Component : This Component Displays the details of the selected customer. This Component gets its data from a json file in assets folder as well. This Component is the Child Component of *Customers* Component
-
-#### HTTP client
-
-**axios** library is used to make HTTP Calls
-
-#### URL
-
-The application has just one url /customerlist which ties to *Customers* Component
-
-## Resources
-
-**create-react-app** : The following link has all the commands that can be used with create-react-app
-https://github.com/facebook/create-react-app
-
-**ReactJS** : Refer to https://reactjs.org/ to understand the concepts of ReactJS
-
-**React Bootstrap** : Refer to https://react-bootstrap.github.io/getting-started/introduction/ to understand how to use React Bootstrap
