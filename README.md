@@ -36,7 +36,7 @@ Install create-react-app npm package globally. This will help to easily run the 
 npm install -g create-react-app
 ```
 
-## Cloning and Running the Application in local
+## Cloning the Application in local
 
 To clone the project into your local environment, follow these steps:
 
